@@ -1,0 +1,20 @@
+{
+  "name": "generator-javascript-project",
+  "version": "0.1.0",
+  "description": "generator for javascript git project",
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "generator-javascript-project"
+  ],
+  "author": "yedaodao",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "mkdirp": "^0.5.1",
+    "request": "^2.73.0",
+    "yeoman-generator": "^0.23.4"
+  }
+}
