@@ -13,4 +13,5 @@ module.exports = function (app, answers) {
             answers
         );
     }
+    return Promise.resolve({});
 };

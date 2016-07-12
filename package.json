@@ -1,5 +1,5 @@
 {
-  "name": "generator-javascript-project",
+  "name": "generator-js-pj",
   "version": "0.1.0",
   "description": "generator for javascript git project",
   "files": [
@@ -7,7 +7,7 @@
   ],
   "keywords": [
     "yeoman-generator",
-    "generator-javascript-project"
+    "generator-js-pj"
   ],
   "author": "yedaodao",
   "license": "MIT",
