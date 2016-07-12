@@ -24,3 +24,7 @@ Now, you can use ```yo js-pj``` to generate a javascript with git.
 2. Excute ```yo js-pj```
 3. Enter infomation about creating new project follow the tips
 4. enter the new project directory to complete the first commit
+
+## Feedback
+
+If you have any questions, please create [Issues](https://github.com/yedaodao/generator-js-pj/issues).
