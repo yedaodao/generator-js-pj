@@ -2,10 +2,12 @@
   "name": "<%= name %>",
   "version": "0.1.0",
   "description": "",
+  <% if(repository){ %>
   "repository": {
     "type": "git",
     "url": "<%= repository %>"
-  },
+  },composer
+  <% } %>
   "author": "<%= gitName %>",
   "license": "<%= license %>"
 }

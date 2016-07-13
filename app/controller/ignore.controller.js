@@ -7,7 +7,7 @@ module.exports = function (app, answer) {
     var pjPath = app.config.get('pjPath');
     return new Promise(function (resolve, reject) {
         var baseUrl = 'https://www.gitignore.io/api/',
-            qsVals = [answer.os].concat(answer.ide);
+            qsVals = answer.os.concat(answer.ide);
         app.log('it will request info from gitignore.io, please wait...');
         request(baseUrl + qsVals.join(','), function (err, res, body) {
             if (err) {

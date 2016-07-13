@@ -38,9 +38,9 @@ module.exports = generators.Base.extend({
                 default: 'MIT'
             },
             {
-                type: 'list',
+                type: 'checkbox',
                 name: 'os',
-                message: 'Your platform',
+                message: 'Include platforms',
                 choices: [
                     'OSX',
                     'Linux',
@@ -50,7 +50,7 @@ module.exports = generators.Base.extend({
             {
                 type: 'checkbox',
                 name: 'ide',
-                message: 'Your IDE',
+                message: 'Include IDEs',
                 choices: [
                     'WebStorm',
                     'SublimeText',
