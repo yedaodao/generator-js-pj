@@ -1,6 +1,6 @@
 {
   "name": "generator-js-pj",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "generator for javascript git project",
   "files": [
     "app"
